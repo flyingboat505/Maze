@@ -1,8 +1,6 @@
 /*
  * File:	maze.c
- *
- * Copyright:	2017, Darren C. Atkinson
- *
+
  * Description:	Generate a maze and solve it visually using the curses
  *		library.  The maze will be as large as the terminal window.
  *		After solving the maze, the user can either quit the
@@ -15,10 +13,6 @@
  *		the maze and the rear of the list as the top when solving
  *		the maze.
  *
- *		Most of the ideas in this code are taken from either
- *		Wikipedia (see comments below) or from the following URL:
- *
- *		http://www.gamedev.net/reference/articles/article1637.asp
  */
 
 # include <time.h>		/* for time(), used to seed the rng */
